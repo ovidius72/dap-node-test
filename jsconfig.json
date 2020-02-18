@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "models": ["src/models/*"],
+      "images": ["src/images/*"],
+      "utils": ["src/utils/*"]
+    }
+  },
+  "exclude": ["node_modules", "locale", "config"],
+  "include": ["src/**/*"]
+}

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "commonjs",
+    "lib": ["es2017", "dom"],
+    "moduleResolution": "node",
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "pretty": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "outDir": "./build"
+  },
+  "include": ["./src/**/*", "./typings/**/*.d.ts"],
+  "exclude": ["node_modules", "locale", "config", "./src/**/*.spec.ts"]
+}

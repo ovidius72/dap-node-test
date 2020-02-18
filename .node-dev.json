@@ -1,0 +1,10 @@
+{
+  "clear": true,
+  "notify": false,
+  "ignore-wath": ["node_modules"],
+  "extensions": {
+    "js": {
+      "name": "@babel/register"
+    }
+  }
+}
